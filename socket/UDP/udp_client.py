@@ -9,7 +9,7 @@ while True:
     message.append(line)
 f.close()
 
-server_name = "ubuntu"
+server_name = "192.168.242.143"
 server_port = 12000
 client_socket = socket(AF_INET, SOCK_DGRAM) 
 modified_message = []
